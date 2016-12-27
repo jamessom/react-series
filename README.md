@@ -36,3 +36,6 @@ export default class App extends React.Component {
 ERROR in Cannot find module 'babel-core'
 ------
 npm install babel-core babel-loader --save-dev
+
+
+[O que é e como funciona o contexto no Javascript?](http://pt.stackoverflow.com/questions/8975/o-que-%C3%A9-e-como-funciona-o-contexto-no-javascript)
