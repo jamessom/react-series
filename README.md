@@ -11,6 +11,7 @@ de React do [Canal V++](https://youtube.com/user/VPlusPlus).
 src/app.js
 ------
 
+```
 import React     from 'react';
 import ReactDOM from 'react-dom';
 
@@ -20,11 +21,13 @@ ReactDOM.render(
 	<App />,
 	document.getElementById("app")
 );
+```
 
 
 src/components/App.js
 ------
 
+```
 import React from 'react';
 
 export default class App extends React.Component {
@@ -32,10 +35,11 @@ export default class App extends React.Component {
 		return <h1>Olá React tatata</h1>;
 	}
 }
+```
 
 ERROR in Cannot find module 'babel-core'
 ------
-npm install babel-core babel-loader --save-dev
+```npm install babel-core babel-loader --save-dev ```
 
 
 [O que é e como funciona o contexto no Javascript?](http://pt.stackoverflow.com/questions/8975/o-que-%C3%A9-e-como-funciona-o-contexto-no-javascript)
